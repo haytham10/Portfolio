@@ -1,5 +1,4 @@
 'use client';
-
 import React from 'react'
 import { motion } from 'framer-motion';
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '../utils/motion';
@@ -11,7 +10,7 @@ const HeroUtils = () => {
 	<motion.div
 		initial='hidden'
 		animate='visible'
-		className='flex flex-row items-center justify-center px-20 mt-20 w-full z-[20]'
+		className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'
 		>
 		<div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
 			<motion.div
@@ -47,7 +46,7 @@ const HeroUtils = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 hover:transition-all hover:duration-300 hover:ease-in-out button-primary text-center text-white cursor-pointer rounded-xl max-w-[200px]"
+          className="py-2 hover:transition-all hover:duration-300 hover:ease-in-out button-2 text-center text-white cursor-pointer rounded-xl max-w-[200px]"
         >
           Learn More
         </motion.a>
@@ -55,7 +54,7 @@ const HeroUtils = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center circle"
+        className="w-full h-full justify-center items-center circle hidden md:flex"
       >
 		<div className="border-one"></div>
 		<div className="border-two"></div>
