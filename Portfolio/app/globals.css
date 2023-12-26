@@ -159,7 +159,6 @@
 		   0 0 4em 1em var(--glow-spread-color),
 		   inset 0 0 .75em .25em var(--glow-color);
 	position: relative;
-	transition: all 0.3s;
    }
    
    .button-2::after {
@@ -179,6 +178,7 @@
    .button-2:hover {
 	color: var(--btn-color);
 	background-color: var(--glow-color);
+	transition: all 0.3s;
 	box-shadow: 0 0 1em .25em var(--glow-color),
 		   0 0 4em 2em var(--glow-spread-color),
 		   inset 0 0 .75em .25em var(--glow-color);

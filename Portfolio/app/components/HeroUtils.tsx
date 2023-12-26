@@ -12,10 +12,10 @@ const HeroUtils = () => {
 		animate='visible'
 		className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'
 		>
-		<div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
+		<div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-center md:text-start'>
 			<motion.div
 				variants={slideInFromTop}
-				className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
+				className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] m-auto md:m-0 opacity-[0.9]'
 				>
 					<SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5'/>
 					<h1 className='Welcome-text text-[13px]'>
@@ -46,7 +46,7 @@ const HeroUtils = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 hover:transition-all hover:duration-300 hover:ease-in-out button-2 text-center text-white cursor-pointer rounded-xl max-w-[200px]"
+          className="py-2 button-2 text-center text-white cursor-pointer m-auto mx-2 md:m-0 rounded-xl md:max-w-[200px]"
         >
           Learn More
         </motion.a>
