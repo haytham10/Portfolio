@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface Props {
 	src: string;
@@ -11,7 +12,7 @@ interface Props {
   const ProjectCard = ({ src, title, description, link }: Props) => {
 	return (
 		<div className="card flex flex-col transition-all duration-200 ease-in-out">
-			<img src={src} className='card-image'/>
+			<Image width={300} height={100} alt={title} src={src} className='card-image'/>
 			<p className="card-title">{title}</p>
 			<p className="card-body">{description}</p>
 			<div className='flex place-self-end justify-self-end'>

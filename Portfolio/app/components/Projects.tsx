@@ -15,7 +15,7 @@ const Projects = () => {
           src="/pong.jpg"
           title="Transcendence"
           description="Thanks to this website, users are able to play Pong with others. Providing a nice user interface, a chat, and real-time multiplayer online games."
-		  link='https://github.com/funke09/Ft_Trancendence_42'
+		  link='https://github.com/haytham10/Ft_Trancendence'
 		/>
         <ProjectCard
           src="/IRC.jpg"
