@@ -44,12 +44,6 @@ const HeroUtils = () => {
           I&apos;m a Full Stack Software Engineer with experience in Website,
          and Software development.
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-2 text-center text-white cursor-pointer m-auto mx-2 md:m-0 rounded-xl md:max-w-[200px]"
-        >
-          Learn More
-        </motion.a>
       </div>
 
       <motion.div

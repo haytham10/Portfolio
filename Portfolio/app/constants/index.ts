@@ -102,18 +102,18 @@ export const Frontend_skills = [
 		width: 65,
 		height: 65,
 	},
-    {
+	{
+		skill_name: "Docker",
+		Image: "/docker.webp",
+		width: 60,
+		height: 60,
+	},
+	{
 		skill_name: "Postger SQL",
 		Image: "/postger.png",
 		width: 65,
 		height: 65,
-    },
-    {
-		skill_name: "My SQL",
-		Image: "/mysql.png",
-		width: 70,
-		height: 70,
-    },
+	},
     {
 		skill_name: "Prisma",
 		Image: "/prisma.webp",
@@ -121,10 +121,10 @@ export const Frontend_skills = [
 		height: 60,
     },
 	{
-		skill_name: "Docker",
-		Image: "/docker.webp",
-		width: 60,
-		height: 60,
+		skill_name: "My SQL",
+		Image: "/mysql.png",
+		width: 70,
+		height: 70,
 	},
   ];
   
