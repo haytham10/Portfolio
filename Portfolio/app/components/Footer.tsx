@@ -19,18 +19,18 @@ const Footer = () => {
 	};
 
   return (
-    <footer id='contact' className="bg-[#212121]/75 text-white w-full py-8 z-[20]">
-      <div className=" flex flex-col md:flex-row items-center mx-10 justify-between">
+    <footer id='contact' className="bg-[#212121]/75 text-white py-8 z-[25]">
+      <div className=" flex flex-col md:flex-row items-center md:mx-10 md:space-x-[2rem] justify-between">
         {/* Get in Touch Section */}
-        <div className=" md:w-1/2 md:max-w-[40%]">
-          <form onSubmit={handleSubmit} className="flex flex-col space-y-4 text-white">
+        <div className="md:w-[40%] w-1/2">
+          <form onSubmit={handleSubmit} className="flex flex-col m-auto md:mx-[6rem] space-y-4 text-white">
 			<h2 className='text-[24px] text-center font-bold'>Contact Me:</h2>
 			<input
 			  type="email"
 			  id="email"
 			  name="email"
 			  placeholder="Your Email"
-			  className="bg-black p-2 rounded "
+			  className="bg-black p-2 rounded-lg "
 			  required
 			/>
 			<ValidationError 
@@ -43,7 +43,7 @@ const Footer = () => {
               id="subject"
               name="subject"
               placeholder="Your Subject"
-              className="bg-black p-2 rounded"
+              className="bg-black p-2 rounded-lg"
               required
             />
 			<ValidationError 
@@ -56,7 +56,7 @@ const Footer = () => {
               name="message"
               placeholder="Your Message"
 			  rows={4}
-			  className="bg-black p-2 rounded min-h-[100px] max-h-[500px]"
+			  className="bg-black p-2 rounded-lg min-h-[100px] max-h-[500px]"
               required
             ></textarea>
 			<ValidationError 
@@ -74,7 +74,7 @@ const Footer = () => {
           </form>
         </div>
         {/* Connect With Me Section */}
-        <div className="mb-4 mt-6 mx-auto md:mb-0 md:w-1/2 text-center flex-col">
+        <div className="mb-4 mt-6 mx-auto md:mb-0 md:w-1/2 text-balance flex-col">
           <h2 className="font-bold text-4xl mb-2">Get in Touch</h2>
 		  <div className='text-gray-400 text-lg'>
 			<p>Email: haytham.mkt@gmail.com</p>
