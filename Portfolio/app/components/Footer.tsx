@@ -84,7 +84,7 @@ const Footer = () => {
 			</div>
         {/* Connect With Me Section */}
         <div className="mb-4 mt-6 mx-auto md:ml-[6rem] md:mb-0 w-full md:w-1/2 md:text-justify text-center flex-col">
-          <h2 className="font-bold text-4xl mb-2">Get in Touch</h2>
+          <h2 className="font-bold text-gray-300 text-3xl mb-2 uppercase">Get in Touch</h2>
 		  <div className='text-gray-400 text-lg'>
 			<p>Email: haytham.mkt@gmail.com</p>
 			<p>Phone: +212 658-377-929</p>
